@@ -1,0 +1,61 @@
+
+
+html {
+    scroll-behavior: smooth;
+    background-color:lavenderblush;
+}
+.card {
+    background:lavenderblush;
+    border: 1px solid #65CAC9;
+    color:paleturquoise;
+  }
+  a {
+    text-decoration: none;
+    color: paleturquoise;
+  }
+  
+  a:hover {
+    color:palevioletred;
+  }
+  body {
+    background:lavenderblush !important;
+  }
+.footer {
+    background: #152f4f;
+    color: white;
+    margin-top:-48px;
+  }
+  .footer .links ul {
+    list-style-type: none;
+  }
+  .footer .links li a {
+    color: white;
+    transition: color 0.2s;
+  }
+  .footer .links li a:hover {
+    text-decoration: none;
+    color: #4180cb;
+  }
+  .footer .about a {
+    color: white;
+    transition: color 0.2s;
+  }
+  .footer .about a:hover {
+    color: #4180cb;
+  }
+  .footer .location i {
+    font-size: 18px;
+  }
+
+  #bgarts{
+      background:url(pic/artsbgpic.jpg)
+  }
+  #artvis{
+      background:url(pic/visartpicbg.jpg);
+  }
+  #artdra{
+    background:url(pic/dramabgpic.jpg);
+}
+#artmus{
+    background:url(pic/musicpicbg.jpg);
+}

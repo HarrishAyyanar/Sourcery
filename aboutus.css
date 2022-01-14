@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #222;
+}
+
+.portion {
+  height: 100vh;
+}
+
+.portion img {
+  width: 100%;
+  position: absolute;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
+}
+
+.main-title {
+  position: absolute;
+  color: black;
+  top: 50%;
+  left: 50%;
+  font-size: 6rem;
+  -webkit-transform: translate(-50%, -30%);
+          transform: translate(-50%, -30%);
+}
+
+.info {
+  width: 100%;
+  background:url(pic/aboutusquespic.jpg);
+  min-height: 100vh;
+  z-index: 2;
+  position: absolute;
+}
+
+.info .info-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.info .text {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.1rem;
+}
+
+.infoone {
+  width: 100%;
+  background:url(pic/aboutuscommpic.jpg);
+  min-height: 100vh;
+  z-index: 2;
+  position: absolute;
+}
+
+.infoone .info-imagesone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.infoone .textone {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.1rem;
+}
+
+.footer {
+  background: #152f4f;
+  color: white;
+  margin-top: -48px;
+}
+
+.footer .links ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footer .links li a {
+  color: white;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+.footer .links li a:hover {
+  text-decoration: none;
+  color: #4180cb;
+}
+
+.footer .about a {
+  color: white;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.footer .about a:hover {
+  color: #4180cb;
+}
+/*# sourceMappingURL=aboutus.css.map */
