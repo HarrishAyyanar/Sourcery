@@ -1,0 +1,62 @@
+#bgmaths{
+    background:url(pic/mathbg.jpg
+    )
+}
+
+a {
+    text-decoration: none;
+    color:lightblue;
+  }
+  
+  a:hover {
+    color: lightcoral;
+  }
+  .card {
+      color:whitesmoke;
+      background-color: #222;
+      border: 1px solid #65CAC9;
+      transition: background-color 1s ease;
+      }
+.card:hover{
+    border:2px solid white; 
+}
+#mathworksheet{
+    background:url(pic/worksheetbgpic.jpg);
+  }
+
+  #mathcourses{
+    background:url(pic/coursespicbg.jpg);
+  }
+
+  #mathuses{
+    background:url(pic/mathusespicbg.jpg);
+  }
+
+  html {
+    scroll-behavior:smooth;
+  }
+  .footer {
+    background: #152f4f;
+    color: white;
+    margin-top:-48px;
+  }
+  .footer .links ul {
+    list-style-type: none;
+  }
+  .footer .links li a {
+    color: white;
+    transition: color 0.2s;
+  }
+  .footer .links li a:hover {
+    text-decoration: none;
+    color: #4180cb;
+  }
+  .footer .about a {
+    color: white;
+    transition: color 0.2s;
+  }
+  .footer .about a:hover {
+    color: #4180cb;
+  }
+  
+  

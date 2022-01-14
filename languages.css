@@ -1,0 +1,111 @@
+html {
+    scroll-behavior: smooth;
+    background-color: black;
+}
+.card {
+    background: #222;
+    border: 1px solid #65CAC9;
+    color: rgba(250, 250, 250, 0.8);
+    width:100%;
+  }
+
+  .footer {
+    background: #152f4f;
+    color: white;
+    margin-top:-48px;
+  }
+  .footer .links ul {
+    list-style-type: none;
+  }
+  .footer .links li a {
+    color: white;
+    transition: color 0.2s;
+  }
+  .footer .links li a:hover {
+    text-decoration: none;
+    color: #4180cb;
+  }
+  .footer .about{
+    font-size: 25px;
+  }
+  .footer .about a {
+    color: white;
+    transition: color 0.2s;
+  }
+  .footer .about a:hover {
+    color: #4180cb;
+  }
+  .footer .location i {
+    font-size: 18px;
+  }
+  
+  
+section {
+    height: 100vh;
+    position: sticky;
+  }
+.langone{
+    background-color: burlywood;
+}
+  .langtwo{
+      background-color: beige;
+  }
+  .langthree{
+      background-color:lightcyan;
+  }
+  .langfour{
+      background-color:thistle;
+  }
+  .langfive{
+      background-color:lavender;
+  }
+
+  .langtwo .card{
+background-color: beige;
+border: 1px solid black;
+color: black;
+  }
+  .langthree .card{
+    background-color:lightcyan;
+    border: 1px solid black;
+    color: black;
+      }
+      .langfour .card{
+        background-color: thistle;
+        border: 1px solid black;
+        color: black;
+          }
+
+          .langfive .card{
+            background-color: lavender;
+            border: 1px solid black;
+            color: black;
+              }
+  a {
+    text-decoration: none;
+    color: #152f4f
+  }
+  
+  a:hover {
+    color: lightblue;
+  }
+
+  .blockquote-footer::before{
+      display:none
+  }
+  .blockquote-footer{
+      margin-top:0rem;
+  }
+
+#langfre{
+    
+}
+#langger{
+    
+}
+#langkor{
+    
+}
+#langspan{
+    
+}

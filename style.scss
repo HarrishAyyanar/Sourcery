@@ -1,0 +1,47 @@
+@import "./bootstrap-5.0.2/scss/functions";
+@import "./bootstrap-5.0.2/scss/variables";
+@import "./bootstrap-5.0.2/scss/utilities";
+
+$utilities : (
+"img-bgcolor":(
+    property: background-image,
+    class: bgcover,
+    values:(
+        "img1":url(rocket.png)
+    )
+)
+);
+// $utilities : (
+//     "text-colour":(
+//         property:color,
+//         class: text-color,
+//         state: hover,
+//         responsive: true,
+//         values:(
+//             white: rgba(255,255,255,1),
+//             red: rgba(239, 68, 68,1),
+//             yellow: rgba(245, 158, 11, 1),
+//         )
+
+//     )
+// );
+// $utilities : (
+//    "spacing" :(
+//        property: padding,
+//        class : spacing,
+//        values :(
+//            5: 5em,
+//            10: 10em,
+//        )
+//    ),
+//    "spacing-t":(
+//        property:padding-top,
+//        class: spacing-t,
+//        values : (
+//            1: 1em,
+//        )
+//    )
+// );
+
+
+@import "./bootstrap-5.0.2/scss/bootstrap.scss";

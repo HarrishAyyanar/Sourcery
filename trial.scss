@@ -1,0 +1,19 @@
+@import "./bootstrap-5.0.2/scss/functions";
+@import "./bootstrap-5.0.2/scss/variables";
+@import "./bootstrap-5.0.2/scss/utilities";
+
+$utilities : (
+    "text-colour":(
+        property:color,
+        class: text-color,
+        state: hover,
+        responsive: true,
+        values:(
+            white: rgba(255,255,255,1),
+            red: rgba(239, 68, 68,1),
+            yellow: rgba(245, 158, 11, 1),
+        )
+    )
+);
+
+@import "./bootstrap-5.0.2/scss/bootstrap.scss";

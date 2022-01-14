@@ -1,0 +1,23 @@
+.footer {
+    background:violet;
+    color: black;
+    margin-top:-48px;
+  }
+  .footer .links ul {
+    list-style-type: none;
+  }
+  .footer .links li a {
+    color: black;
+    transition: color 0.2s;
+  }
+  .footer .links li a:hover {
+    text-decoration: none;
+    color: #4180cb;
+  }
+  .footer .about {
+    color:black
+  }
+  .footer .location{
+    font-size: 18px;
+  }
+  
